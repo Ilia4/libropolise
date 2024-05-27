@@ -1,0 +1,25 @@
+.info-block{
+    width: 900px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.b1{
+    display: flex;
+    align-items: center;
+}
+.b1 h3{
+    font-family:"Slogan";
+    padding-right: 35px;
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+  .icon-call-svg{
+   
+    stroke: rgb(0, 255, 98);
+    fill:white;
+  }

@@ -1,0 +1,329 @@
+.detail-book-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header-detail-book{
+width: 65%;
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+.title-book{
+    font-family: "Slogan";
+}
+.title-book h2,p{
+    margin: 0;
+
+}
+.title-book{
+    display: flex;
+    align-items: center;
+}
+
+.age-limit{
+    background-color: rgb(151, 151, 151);
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    margin-left: 10px;
+}
+.autor-book a{
+    text-decoration: none;
+    color: rgb(155, 196, 230);
+    font-family: "Slogan";
+    font-weight: 500;
+}
+.photo-book img{
+    width: 300px;
+}
+.grade{
+    padding-top: 10px;
+}
+.grade h3{
+  font-family: "Slogan";
+}
+.brief-info-book{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+.description-book{
+    width: 500px;
+    padding-right: 30px;
+}
+.buy-button-block {
+    align-items: center;
+    appearance: none;
+    background-color: #EEF2FF;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #536DFE;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #536DFE;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 56px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 20px;
+    width: 400px;
+  }
+  
+  .buy-button-block:focus {
+    outline: none;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px, rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .buy-button-block:hover {
+    box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .buy-button-block:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  .add-bookmarks-icon{
+    stroke: rgb(131, 167, 196);
+    
+  }
+  .add-bookmarks{
+    border: 0;
+    background-color: #ecf6fe;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    height: 45px;
+    width: 40px;
+  }
+  .buy{
+    width: 300px;
+    height: 45px;
+    outline: none;
+    border: 0;
+    background-color: rgb(155, 196, 230);
+    color: white;
+    font-family: "Slogan";
+    font-size: 10pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  .buy:hover{
+    background-color: rgb(126, 161, 189);
+  }
+  .button-buy{
+    display: flex;
+  }
+  .description p{
+    display: -webkit-box;
+  -webkit-line-clamp: 4; /* Количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: "description";
+  line-height: 1.5;
+  }
+  @font-face{
+    font-family: "description";
+    src: url("../fonts/UbuntuSans-VariableFont_wdth\,wght.ttf") format("truetype"); 
+    
+  }
+  .price-block h4{
+    margin: 0;
+    font-family: "Slogan";
+    color: red;
+    font-weight: 600;
+    font-size: 23px;
+  }
+  .info-book{
+    display: flex;
+    flex-direction: column;
+  }
+  .information-book{
+    display: flex;
+    justify-content: space-between;
+  }
+  .information-book h3{
+    font-family: "Slogan";
+    font-size: 15px;
+  }
+  .active-links a{
+    text-decoration: none;
+    color: rgb(132, 168, 197);
+    font-family: "description";
+    font-weight: 500;
+
+  }
+  .active-links{
+    padding-top: 10px;
+  }
+  .price-block h3{
+    margin: 0;
+    font-family: "Slogan";
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: line-through;
+    text-decoration-thickness:2px;
+  }
+  .offer-availability-status--green{
+    color: #37CEB4;
+  }
+  .have{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Slogan";
+  }
+  .pay-block{
+    border: 2px rgb(230, 230, 230) solid;
+    border-radius: 4px;
+    height: fit-content;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position:sticky;
+    top: 0;
+  }
+  .head-reviews-block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .reviews{
+    width: 200px;
+    height: 45px;
+    outline: none;
+    border: 0;
+    background-color: rgb(155, 196, 230);
+    color: white;
+    font-family: "Slogan";
+    font-size: 10pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  .head-reviews-block .title{
+    font-size: 20px;
+    font-family: "Slogan";
+  }
+  .reviews-contain{
+    height: 500px;
+    width: 68%;
+  }
+  .title-block h2{
+    font-size: 24px;
+    font-family: "Slogan";
+  }
+
+  .full-description-book{
+    width: 50%;
+  }
+  .full-description-block{
+    font-family: "Slogan";
+  }
+  .full-characteristics{
+    display: flex;
+    flex-direction: column;
+  }
+  .full-characteristics-contain{
+    width: 50%;
+  }
+  .reviews:hover{
+    background-color: rgb(126, 161, 189);
+  }
+  .way-to-the-book{
+    display: flex;
+    font-family: "Slogan";
+    margin-left: 18%;
+   
+  }
+  .way-to-the-book a{
+    text-decoration: none;
+    color: rgb(132, 168, 197);
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .rating-edit{
+    fill: rgb(141, 141, 141);
+  }
+  .rating-edit.active {
+    fill: gold; /* Или другой цвет */
+  }
+  .review-input-field{
+    overflow-wrap: break-word;
+    width: 700px;
+
+    height: 80px;
+  }
+  .reviews-block{
+    width: fit-content;
+  }
+  .input-reviews{
+    display: flex;
+    flex-direction: column;
+  }
+  .submit-btn-block{
+    padding-top: 10px;
+  }
+  .submit-review{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #658eaa;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  .submit-review:hover{
+    background-color: #7aabcc;
+  }
+  .review-container{
+    width: 800px;
+  }
+.review{
+  background-color: rgb(211, 230, 209);
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.head-review h3{
+  font-family: "Slogan";
+  font-size: 17px;
+}
+.review-container{
+  font-family: "Slogan";
+  text-align: justify;
+}

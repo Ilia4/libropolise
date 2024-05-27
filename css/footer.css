@@ -1,0 +1,19 @@
+.block-info-footer{
+    text-align: center;
+    font-family: "Slogan";
+}
+.block-info-footer h3{
+    font-style: "Slogan";
+}
+.footer{
+    background-color: #ecf6fe;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    margin-top: 40px;
+   
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }

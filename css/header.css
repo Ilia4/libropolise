@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(155, 196, 230);
+    flex-direction: column;
+}
+.main-buttons{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 20px;
+
+}
+.button-search{
+  padding-right: 20px;
+}
+.logo{
+  padding-right: 20px;
+  cursor: pointer;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  font-size: 15px;
+}
+
+.btn-2 {
+  background: #004dff;
+  background: linear-gradient(0deg, #004dff 0%, #004dff 100%);
+  border: none;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-2:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+.input-container {
+  width: 30%;
+}
+
+.input {
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  transition: .2s linear;
+  border: 2.5px solid black;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.profile-buttons{
+  display: flex;
+}
+.input:focus {
+  outline: none;
+  border: 0.5px solid black;
+  box-shadow: -5px -5px 0px black;
+}
+
+.input-container:hover > .icon {
+  animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+  0%,
+  100% {
+    transform: translateY(calc(-50% - 5px)) scale(1);
+  }
+
+  50% {
+    transform: translateY(calc(-50% - 5px)) scale(1.1);
+  }
+}
+.header-profile, .header-orders, .header-wishlist, .header-basket{
+ 
+  fill: white;
+  transition-duration: 0.2s;
+}
+.header-profile-button, .header-order-button, .header-wishlist-button, .header-basket-button{
+  background-color: #ffffff00;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.header-profile:hover , .header-orders:hover, .header-wishlist:hover, .header-basket:hover{
+  fill: rgb(201, 201, 201);
+}
+.profile{
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.order{
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.wishlist{
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.basket{
+  display: flex;
+  flex-direction: column;
+}
+.header-wishlist-span, .header-profile-span, .header-order-span, .header-basket-span{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: white;
+}
+.useful-links{
+  display: flex;
+  height: 35px;
+  background-color: #477bf5;
+  justify-content: center;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+  padding-right: 15px;
+  transition: 0.2s;
+}
+.link:hover{
+  color: rgb(245, 245, 245);
+}
+.useful-buttons{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.useful-buttons-links{
+  padding-right: 35px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.2s;
+}
+.useful-buttons-links:hover{
+  color: rgb(224, 224, 224);
+}

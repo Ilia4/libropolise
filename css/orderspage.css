@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Стили для заголовков таблицы */
+  th {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* Стили для ячеек таблицы */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Чередование цвета строк */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Стили при наведении на строку */
+  tr:hover {
+    background-color: #e9e9e9;
+  }
+  h2{
+    font-family: "Slogan";
+  }
+  @font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .orders-contain{
+    width: 800px;
+  }
+  .non-autoriz-user{
+    font-family: "Slogan";
+  }

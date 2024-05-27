@@ -1,0 +1,138 @@
+.tittle{
+    font-family: "Slogan";
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+  .book{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 200px;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.price-block h4{
+    margin: 0;
+    font-family: "Slogan";
+    white-space: nowrap;
+    font-size: 20px;
+    color: #f34a57;;
+}
+.photo-block img{
+    width: 170px;
+    height: 100%;
+}
+.photo-block{
+    height: 60%;
+}
+.price-block{
+    padding-left: 7px;
+    padding-top: 8px;
+}
+
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+
+  .title{
+    padding-left: 7px;
+    padding-top: 10px;
+    
+  }
+  .title .tittle-book{
+    font-family: "Slogan";
+    font-size: 18px;
+    margin: 0;
+    display: -webkit-box;
+  -webkit-line-clamp: 2; /* Количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  }
+  .title h4{
+    font-family: "Slogan";
+    color: rgb(124, 124, 124);
+    margin: 0;
+    font-size: 12px;
+  }
+  .buy{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background-color: rgb(155, 196, 230);
+    color: white;
+    font-family: "Slogan";
+    font-size: 10pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  .buy:hover{
+    background-color: rgb(126, 161, 189);
+  }
+  .action-buttons-block-book{
+    width: 100%;
+    display: flex;
+  }
+  .delete-from-busket{
+    border: 0;
+    background-color: #ecf6fe;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 100%;
+    transition-duration: 0.2s;
+  }
+  .delete-from-busket:hover{
+    background-color: #fa8e97;
+  }
+  .delete-from-busket-icon{
+    
+    
+  }
+  .book-contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .new-book-link{
+    text-decoration: none;
+    color: black;
+    font-family: "Slogan";
+    font-size: 25px;
+    font-weight: 600;
+    transition-duration: 0.2s;
+    padding-right: 15px;
+  }
+  .new-book-link:hover{
+    color: #004dff;
+  }
+  .new-book-block-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product-container{
+    display: flex;
+    flex-wrap: wrap
+  }
+  .basket-container{
+    width: 900px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .non-autoriz-user{
+    font-family: "Slogan";
+  }

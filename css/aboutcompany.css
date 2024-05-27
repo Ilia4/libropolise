@@ -1,0 +1,25 @@
+.info-block{
+    width: 900px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.first-info h3{
+ font-family: "Slogan";
+ font-size: 23px;
+}
+.first-info p{
+    font-family: "Slogan";
+    font-size: 18px;
+    text-align: justify;
+   }
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+  .first-info ul{
+    font-family: "Slogan";
+    font-size: 18px;
+  }

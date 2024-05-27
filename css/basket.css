@@ -1,0 +1,265 @@
+.tittle{
+    font-family: "Slogan";
+}
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+  .book{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 200px;
+    align-items: flex-start;
+    padding-left: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.price-block h4{
+    margin: 0;
+    font-family: "Slogan";
+    white-space: nowrap;
+    font-size: 20px;
+    color: #f34a57;;
+}
+.photo-block img{
+    width: 170px;
+    height: 100%;
+}
+.photo-block{
+    height: 60%;
+}
+.price-block{
+    padding-left: 7px;
+    padding-top: 8px;
+}
+
+@font-face{
+    font-family: "Slogan";
+    src: url("../fonts/TransformaSans_Trial-Regular.ttf") format("truetype"); 
+    
+  }
+
+  .title{
+    padding-left: 7px;
+    padding-top: 10px;
+    
+  }
+  .title .tittle-book{
+    font-family: "Slogan";
+    font-size: 18px;
+    margin: 0;
+    display: -webkit-box;
+  -webkit-line-clamp: 2; /* Количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  }
+  .title h4{
+    font-family: "Slogan";
+    color: rgb(124, 124, 124);
+    margin: 0;
+    font-size: 12px;
+  }
+  .buy{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background-color: rgb(155, 196, 230);
+    color: white;
+    font-family: "Slogan";
+    font-size: 10pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+  .buy:hover{
+    background-color: rgb(126, 161, 189);
+  }
+  .action-buttons-block-book{
+    width: 100%;
+    display: flex;
+  }
+  .delete-from-busket{
+    border: 0;
+    background-color: #ecf6fe;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 100%;
+    transition-duration: 0.2s;
+  }
+  .delete-from-busket:hover{
+    background-color: #fa8e97;
+  }
+  .delete-from-busket-icon{
+    
+    
+  }
+  .book-contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .new-book-link{
+    text-decoration: none;
+    color: black;
+    font-family: "Slogan";
+    font-size: 25px;
+    font-weight: 600;
+    transition-duration: 0.2s;
+    padding-right: 15px;
+  }
+  .new-book-link:hover{
+    color: #004dff;
+  }
+  .new-book-block-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .all-book{
+    text-decoration: none;
+    color: #004dff;
+    font-family: "Slogan";
+    padding-right: 15px;
+  }
+  .product-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .basket-container{
+    width: 700px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .pay-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .title-pay-form h3{
+    font-family: "Slogan";
+  }
+  .head-pay-form h4{
+    font-family: "Slogan";
+  }
+  .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title-block-width{
+    width: 350px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  }
+  .tittle-book{
+    font-family: "Slogan";
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    transition-duration: 0.2s;
+  }
+  .tittle-book:hover{
+    color: #a6cae2;
+  }
+  .quantity-block h4{
+    font-family: "Slogan";
+  }
+  .quantity-block{
+    display: flex;
+    padding-left: 45px;
+  }
+  .total-price{
+    font-family: "Slogan";
+  }
+  .btn-style {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .btn-style {
+    --primary-color: #111;
+    --hovered-color: #6d92a8;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .btn-style p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  
+  .btn-style::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .btn-style p::before {
+    position: absolute;
+    /*   box-sizing: border-box; */
+    content: "Перейти к оформлению";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .btn-style:hover::after {
+    width: 100%;
+  }
+  
+  .btn-style:hover p::before {
+    width: 100%;
+  }
+  
+  .btn-style:hover svg {
+    transform: translateX(4px);
+    color: var(--hovered-color);
+  }
+  
+  .btn-style svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+  }
+  .pay-form{
+    border: 2px rgb(211, 211, 211) solid;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .error{
+    font-family: "Slogan";
+  }
+.pay-form-block{
+  position: sticky;
+}
+.none-autoriz-user{
+  font-family: "Slogan";
+}
